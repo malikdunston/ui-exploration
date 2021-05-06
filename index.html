@@ -8,15 +8,23 @@
         <link rel="stylesheet" href="assets/webfonts/webfonts.css">
         <link rel="stylesheet" href="assets/css/index.css">
         <script>
-		const arr = [
-			"Person",
-			{about: 'Web Dev', age: "29"},
-			{skills: [
-				"PS",
-				"VSCode"
-			]}
-		];
-
+		const menu = {
+			about: [
+				"About Georgia Tech",
+				"Visitor Information",
+				"Office and Department Directory",
+				"Student, Staff, and Faculty Directory",
+				"Institute Leadership",
+				"Ethics",
+				"Careers at Tech"
+			], 
+			academics: "item",
+			admissions: "item",
+			life: "item",
+			athletics: "item",
+			research: "item",
+			news: "item",
+		}
         </script>
         <script>
                 const accordion =  (data, elem) => {
@@ -24,7 +32,7 @@
                         return elem;
                         function iterate() {
                                 for ([key, value] of Object.entries(data)) {
-                                        let btn = document.createElement("button"),
+                                        let btn = document.createElement("div"),
                                                 cont = document.createElement("div"),
                                                 fold = document.createElement("div");
                                         if (!Array.isArray(data)) {
@@ -34,10 +42,10 @@
                                         }
                                         accordion(value, cont);
                                         fold.appendChild(cont);
-                                        fold.addEventListener("click", event => {
-                                                if(parentsOf(event.target)[0].classList.contains("btn") && cont.style.maxHeight !== "0px" ){
-                                                        cont.style.maxHeight = "0px"
-                                                }else cont.style.maxHeight = "500vh";
+                                        btn.addEventListener("click", event => {
+                                                cont.style.maxHeight !== "0px" ?
+                                                        cont.style.maxHeight = "0px" :
+                                                	cont.style.maxHeight = "500vh";
                                                 fold.classList.toggle("open");
                                         });
                                         elem.appendChild(fold);
@@ -81,21 +89,27 @@
                 </header>
                 <section>
                         <div class="tabs">
-                                <div>About</div>
+                                <div class="selected">Home</div>
                                 <div>Academics</div>
                                 <div>Research</div>
                         </div>
                         <div class="submenu about">
 
                         </div>
-                        <script>accordion(arr, document.querySelector(".submenu"))</script>
+                        <script>accordion(menu, document.querySelector(".submenu"))</script>
                 </section>
         </nav>
         <script>
                 const nav = document.querySelector("nav");
+                const search = document.querySelector("#search");
                 nav.addEventListener("click", (event) => {
                         if(event.target == document.querySelector("nav .hamburger")){
-                                nav.classList.toggle("open");
+                                nav.classList.add("open");
+				search.innerHTML = "X";
+                        }
+                        if(event.target == document.querySelector("nav #search")){
+                                nav.classList.remove("open");
+				search.innerHTML = "S";
                         }
                 })
         </script>
@@ -105,8 +119,14 @@
 
                 <div class="carousel">
                         <img src="img/a.png" alt="People-Nasa.png">
-                        <h1>Georgia Tech Shares $15M From NASA to Advance Deep Space Exploration</h1>
-                        <p>Georgia Tech, along with 11 partner universities and 17 researchers, will receive $15 million over five years to develop strategies and methodologies to surmount limitations in ground testing of high-power electric propulsion systems.</p>
+			<div class="bg"></div>
+			<div class="cover">
+				<span class="tag">STEM</span>
+				<span class="tag" style="background: var(--blue)">Govt Relations</span>
+				<h1>Georgia Tech Shares $15M From NASA to Advance Deep Space Exploration</h1>
+				<p>Georgia Tech, along with 11 partner universities and 17 researchers, will receive $15 million over five years to develop strategies and methodologies to surmount limitations in ground testing of high-power electric propulsion systems.</p>
+				<button>Read</button>
+			</div>
                 </div>
 
         </div>

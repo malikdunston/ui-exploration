@@ -14,7 +14,8 @@
         /* secondary */
         --buzz-gold: rgba(233, 171, 33, 100);
 /* transparent navy/almost gray */
-        --navy30: rgba(0, 44, 86, .4);
+        --navy40: rgba(0, 44, 86, .4);
+        --navy20: rgba(0, 44, 86, .1);
 }
 
 body{

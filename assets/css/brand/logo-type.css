@@ -15,6 +15,10 @@ h6{
         font-family: "DIN2014-Regular", sans-serif;
 }
 
+p{
+	line-height: 1.25em;
+}
+
 .logo svg > path{
         fill: var(--gold);
 }

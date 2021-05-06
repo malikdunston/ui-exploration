@@ -7,6 +7,7 @@ nav{
         transition: max-height .75s;
         color: var(--navy);
         background: var(--white);
+	z-index: 999;
         transition: 
                 background-color .25s ease-in,
                 color .25s ease-in,
@@ -55,11 +56,14 @@ nav header .hamburger{
 }
 
 nav header #search{
-        border-left: 1px solid var(--navy30);
+        border-left: 1px solid var(--navy40);
         margin-left: auto;
 }
 nav header .hamburger{
-        border-right: 1px solid var(--navy30);
+        border-right: 1px solid var(--navy40);
+	transition:
+		width .5s,
+		padding .5s;
 }
 
 nav section{
@@ -87,7 +91,14 @@ nav.open section{
         height: calc(100vh - 4em);
 }
 
-
+nav.open .hamburger{
+	width: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav.open #search{
+	background: var(--red);
+}
 
 
 
@@ -96,13 +107,56 @@ nav section .tabs{
         display: flex;
         flex-direction: row;
         width: 100%;
+	border-bottom: 1px solid var(--navy40);
+	font-family: "DIN2014-Regular";
+	letter-spacing: .01em;
+	font-size: 1em;
+}
+
+nav section .tabs .selected{
+	font-family: "DIN2014-Bold";
+	background: white;
 }
 nav section .tabs *{
         height: 4rem;
-        background: lightgray;
-        border-right: 1px solid var(--navy30);
+        background: rgb(225, 225, 225);
+        border-right: 1px solid var(--navy40);
         line-height: 4em;
         /* padding: 0 2em; */
         flex-grow: 1;
         text-align: center;
+}
+
+.submenu .btn{
+	height: 4rem;
+	line-height: 4rem;
+	font-family: "DIN2014-Bold";
+	letter-spacing: .01em;
+	font-size: 1em;
+	border-bottom: 1px solid var(--navy40);
+	text-transform: capitalize;
+}
+.submenu .fold *{
+	transition: max-height .5s;
+}
+
+.fold.open{
+	border-bottom: 1px solid var(--navy40);
+}
+
+.fold > *:nth-child(1),
+.fold > *:nth-child(2) > *{
+	padding-left: 2rem;
+}
+
+.fold > *:nth-child(2) > *{
+	height: 4rem;
+	line-height: 4rem;
+	font-family: "DIN2014-Regular";
+	letter-spacing: .01em;
+	font-size: 1em;
+	border-bottom: 1px solid var(--navy20)
+}
+.fold > *:nth-child(2) > *:last-child{
+	border: none;
 }
