@@ -1,14 +1,6 @@
-body,
-html{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 .slideshow {
-	width: 50vw;
-	height: 50vh;
-	background: lightgray;
+        height: calc(100vh - 7rem);
+	width: 100%;
 	position: relative;
 	overflow: hidden;
 }

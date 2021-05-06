@@ -116,49 +116,26 @@
 
         <div id="view">
 
-                <div class="carousel">
-                        <img src="img/a.png" alt="People-Nasa.png">
-			<div class="bg"></div>
-			<div class="cover">
-				<span class="tag">STEM</span>
-				<span class="tag" style="background: var(--blue)">Govt Relations</span>
-				<h1>Deep Space Exploration</h1>
-				<p>$15 million over five years for high-power electric propulsion systems.</p>
-				<button>Explore</button>
-			</div>
-                </div>
-
 		<div class="slideshow">
 			<div class="feed">
-				<section class="slide">
-					<h4>Section 1</h4>
-					<p>Here's some sample text to get you started!!!!!!</p>
-				</section>
-				<section class="slide">
-					<h4>Section 2</h4>
-					<p>Here's some sample text to get you started!!!!!!</p>
-				</section>
-				<section class="slide">
-					<h4>Section 3</h4>
-					<p>Here's some sample text to get you started!!!!!!</p>
-				</section>
-				<section class="slide">
-					<h4>Section 4</h4>
-					<p>Here's some sample text to get you started!!!!!!</p>
-				</section>
-				<section class="slide">
-					<h4>Section 5</h4>
-					<p>Here's some sample text to get you started!!!!!!</p>
+				<section class="slide carousel">
+					<img src="img/a.png" alt="People-Nasa.png">
+					<div class="bg"></div>
+					<div class="cover">
+						<span class="tag">STEM</span>
+						<span class="tag" style="background: var(--blue)">Govt Relations</span>
+						<h1>Deep Space Exploration</h1>
+						<p>$15 million over five years for high-power electric propulsion systems.</p>
+						<button>Explore</button>
+					</div>
 				</section>
 			</div>
 			<div class="controls">
-				<div class="backward">
-					<
-				</div>
-				<div class="forward">
-					>
-				</div>
+				<div ng-click="down()" class="backward"></div>
+				<div ng-click="up()" class="forward"></div>
 			</div>
+
+
 		</div>
 		<script src="carousel.js"></script>
 
