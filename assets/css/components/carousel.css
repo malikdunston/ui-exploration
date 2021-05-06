@@ -1,3 +1,8 @@
 .carousel{
-        height: 
+        height: calc(100vh - 7rem);
+	width: 100%;
+}
+
+.carousel img{
+	height: 100%;
 }
