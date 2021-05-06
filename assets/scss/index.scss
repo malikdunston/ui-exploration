@@ -1,2 +1,9 @@
+body,
+*,
+html{
+	box-sizing: border-box;
+}
+
 @import 
-	"brand/color", "brand/img";
+	"brand/color", "brand/img", "brand/logo-type",
+	"components/nav", "components/view", "components/carousel";
