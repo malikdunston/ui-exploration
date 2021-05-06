@@ -42,3 +42,7 @@
 	text-transform: uppercase;
 	margin-right: .25rem
 }
+
+.carousel p{
+	margin-bottom: 1.5rem;
+}
