@@ -17,7 +17,7 @@ nav .msg{
         background: var(--navy);
         color: var(--white);
         font-family: "DIN2014-Bold", sans-serif;
-        line-height: 1.33rem;
+        line-height: 2rem;
         text-align: center;
         font-size: .75em;
         text-transform: uppercase;
@@ -27,7 +27,7 @@ nav.alert{
 
 }
 nav.alert .msg{
-        height: 1.33rem;
+        height: 2rem;
 }
 
 nav header{
