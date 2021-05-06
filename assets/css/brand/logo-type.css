@@ -37,9 +37,9 @@ p{
         padding: .25em 0;
 }
 .lockup > *:nth-child(2){
-        font-family: "DIN2014-Regular";
+        font-family: "DIN2014-Bold";
         font-size: .9em;
         line-height: 1;
-        letter-spacing: .1em;
+        letter-spacing: .05em;
         text-transform: uppercase;
 }
