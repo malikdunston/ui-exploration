@@ -1,0 +1,108 @@
+nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        max-height: 5.333em;
+        overflow: hidden;
+        transition: max-height .75s;
+        color: var(--navy);
+        background: var(--white);
+        transition: 
+                background-color .25s ease-in,
+                color .25s ease-in,
+                fill  .25s ease-in;
+}
+nav .msg{
+        background: var(--navy);
+        color: var(--white);
+        font-family: "DIN2014-Bold", sans-serif;
+        line-height: 1.33rem;
+        text-align: center;
+        font-size: .75em;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+}
+nav.alert{
+
+}
+nav.alert .msg{
+        height: 1.33rem;
+}
+
+nav header{
+        height: 4em;
+        display: flex;
+        width: 100%;
+}
+
+nav header > *{
+        padding: 1em;
+}
+
+nav.open .lockup *{
+        fill: var(--white)!important;
+        color: var(--white)!important;
+}
+
+
+
+nav header #search,
+nav header .hamburger{
+        width: 4em;
+        line-height: 2em;
+        text-align: center;
+        font-size: 1em;
+}
+
+nav header #search{
+        border-left: 1px solid var(--navy30);
+        margin-left: auto;
+}
+nav header .hamburger{
+        border-right: 1px solid var(--navy30);
+}
+
+nav section{
+        height: 0;
+        background: var(--white);
+        transition: height 1s;
+}
+
+
+
+
+
+
+nav.open{
+        max-height: 100vh;
+        overflow: scroll;
+        background: var(--gold);
+}
+nav.open header{
+        color: var(--white);
+}
+
+nav.open section{
+        transition: height 1s;
+        height: calc(100vh - 4em);
+}
+
+
+
+
+
+nav section .tabs{
+        letter-spacing: 0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+}
+nav section .tabs *{
+        height: 4rem;
+        background: lightgray;
+        border-right: 1px solid var(--navy30);
+        line-height: 4em;
+        /* padding: 0 2em; */
+        flex-grow: 1;
+        text-align: center;
+}

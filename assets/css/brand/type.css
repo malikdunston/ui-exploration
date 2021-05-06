@@ -1,0 +1,37 @@
+:root{
+        font-size: 18px;
+        line-height: 1;
+}
+body{
+        background: var(--white);
+        font-family: "MinionPro-Regular", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+        font-family: "DIN2014-Regular", sans-serif;
+}
+
+.logo svg > path{
+        fill: var(--gold);
+}
+
+.lockup{
+        align-items: center;
+        display: flex;
+}
+.lockup > *:nth-child(1){
+        margin-right: .5em;
+        height: 100%;
+        padding: .25em 0;
+}
+.lockup > *:nth-child(2){
+        font-family: "DIN2014-Regular";
+        font-size: .9em;
+        line-height: 1;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+}

@@ -1,0 +1,19 @@
+/* common css normalization */
+/* plugins */
+        @import "./vendors/normalize.css";
+
+/* brand */
+        @import "./brand/fonts.css";
+        @import "./brand/color.css";
+        @import "./brand/type.css";
+        @import "./brand/img.css";
+        @import "./brand/vector-graphics.css";
+
+/* components */
+        @import "./components/nav.css";
+        @import "./components/view.css";
+
+
+        *{
+                box-sizing: border-box;
+        }
