@@ -1,0 +1,130 @@
+@font-face {
+        font-family: 'DIN2014-ExtraLight';
+        src: url('DIN2014-ExtraLight.eot');
+        src: url('DIN2014-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-ExtraLight.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-ExtraLight.woff') format('woff'),
+                url('DIN2014-ExtraLight.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-Bold';
+        src: url('DIN2014-Bold.eot');
+        src: url('DIN2014-Bold.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-Bold.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-Bold.woff') format('woff'),
+                url('DIN2014-Bold.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-BoldItalic';
+        src: url('DIN2014-BoldItalic.eot');
+        src: url('DIN2014-BoldItalic.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-BoldItalic.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-BoldItalic.woff') format('woff'),
+                url('DIN2014-BoldItalic.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-DemiBold';
+        src: url('DIN2014-DemiBold.eot');
+        src: url('DIN2014-DemiBold.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-DemiBold.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-DemiBold.woff') format('woff'),
+                url('DIN2014-DemiBold.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-DemiBoldItalic';
+        src: url('DIN2014-DemiBoldItalic.eot');
+        src: url('DIN2014-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-DemiBoldItalic.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-DemiBoldItalic.woff') format('woff'),
+                url('DIN2014-DemiBoldItalic.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-ExtraBold';
+        src: url('DIN2014-ExtraBold.eot');
+        src: url('DIN2014-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-ExtraBold.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-ExtraBold.woff') format('woff'),
+                url('DIN2014-ExtraBold.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-ExtraBoldItalic';
+        src: url('DIN2014-ExtraBoldItalic.eot');
+        src: url('DIN2014-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-ExtraBoldItalic.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-ExtraBoldItalic.woff') format('woff'),
+                url('DIN2014-ExtraBoldItalic.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-ExtraLight';
+        src: url('DIN2014-ExtraLight.eot');
+        src: url('DIN2014-ExtraLight.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-ExtraLight.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-ExtraLight.woff') format('woff'),
+                url('DIN2014-ExtraLight.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-ExtraLightItalic';
+        src: url('DIN2014-ExtraLightItalic.eot');
+        src: url('DIN2014-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-ExtraLightItalic.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-ExtraLightItalic.woff') format('woff'),
+                url('DIN2014-ExtraLightItalic.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-Italic';
+        src: url('DIN2014-Italic.eot');
+        src: url('DIN2014-Italic.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-Italic.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-Italic.woff') format('woff'),
+                url('DIN2014-Italic.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-Light';
+        src: url('DIN2014-Light.eot');
+        src: url('DIN2014-Light.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-Light.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-Light.woff') format('woff'),
+                url('DIN2014-Light.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-LightItalic';
+        src: url('DIN2014-LightItalic.eot');
+        src: url('DIN2014-LightItalic.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-LightItalic.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-LightItalic.woff') format('woff'),
+                url('DIN2014-LightItalic.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'DIN2014-Regular';
+        src: url('DIN2014-Regular.eot');
+        src: url('DIN2014-Regular.eot?#iefix') format('embedded-opentype'),
+                url('DIN2014-Regular.svg#DIN2014-ExtraLight') format('svg'),
+                url('DIN2014-Regular.woff') format('woff'),
+                url('DIN2014-Regular.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+}
