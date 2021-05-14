@@ -2,7 +2,7 @@ nav{
         position: fixed;
         top: 0;
         width: 100%;
-        max-height: 5.333em;
+        max-height: 6em;
         overflow: hidden;
         transition: max-height .75s;
         color: var(--navy);
@@ -12,20 +12,18 @@ nav{
                 background-color .25s ease-in,
                 color .25s ease-in,
                 fill  .25s ease-in;
+	.msg{
+		background: var(--navy);
+		color: var(--white);
+		font-family: "DIN2014-Bold", sans-serif;
+		line-height: 2rem;
+		text-align: center;
+		font-size: .75em;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+	}
 }
-nav .msg{
-        background: var(--navy);
-        color: var(--white);
-        font-family: "DIN2014-Bold", sans-serif;
-        line-height: 2rem;
-        text-align: center;
-        font-size: .75em;
-        text-transform: uppercase;
-        letter-spacing: .1em;
-}
-nav.alert{
 
-}
 nav.alert .msg{
         height: 2rem;
 }
@@ -58,6 +56,18 @@ nav header .hamburger{
 nav header #search{
         border-left: 1px solid var(--navy40);
         margin-left: auto;
+	display: flex;
+	justify-content: center;
+	svg{
+		width: 1em;
+		overflow: visible;
+		& > *{
+			fill:none;
+			stroke: var(--navy);
+			stroke-miterlimit:10;
+			stroke-width: 8px;
+		}
+	}
 }
 nav header .hamburger{
         border-right: 1px solid var(--navy40);
